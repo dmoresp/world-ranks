@@ -1,0 +1,22 @@
+.neighbour {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+span {
+  font: var(--variant-4-medium);
+  color: var(--color-text-primary);
+}
+
+.flag {
+  --flag-max-width: 80px;
+  --flag-border-radius: 4px;
+  margin-bottom: .4rem;
+}

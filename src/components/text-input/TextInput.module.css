@@ -1,0 +1,19 @@
+.container {
+  background-color: var(--color-background-primary);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: .4rem;
+  min-width: var(--text-input-min-width, 100%);
+  padding: 0 .5rem;
+}
+
+.input {
+  appearance: none;
+  background-color: inherit;
+  border: none;
+  font: var(--variant-3-medium);
+  height: 47px;
+  outline: none;
+  width: 100%;
+}

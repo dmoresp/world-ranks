@@ -1,0 +1,17 @@
+:root {
+  --default-font: "Be Vietnam Pro";
+  --variant-1-semibold: normal 600 2rem var(--default-font);
+  --variant-2-semibold: normal 600 1rem var(--default-font);
+  --variant-2-medium: normal 500 1rem var(--default-font);
+  --variant-3-semibold: normal 600 0.875rem var(--default-font);
+  --variant-3-medium: normal 500 0.875rem var(--default-font);
+  --variant-4-semibold: normal 600 0.75rem var(--default-font);
+  --variant-4-medium: normal 500 0.75rem var(--default-font);
+
+  font-family: var(--default-font), Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

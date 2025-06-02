@@ -1,0 +1,14 @@
+.select {
+  /* TODO: Implement custom select */
+}
+
+.select select {
+  appearance: none;
+  border-radius: 10px;
+  padding: .7rem;
+  font: var(--variant-3-medium);
+  border: 2px solid var(--color-background-primary);
+  background-color: var(--color-background-secondary);
+  width: 100%;
+  outline: none;
+}

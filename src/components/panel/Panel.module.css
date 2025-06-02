@@ -1,0 +1,26 @@
+/*noinspection CssInvalidAtRule*/
+@custom-media --local-xl (min-width: 81.5rem);
+
+.panel {
+  background-color: var(--color-background-secondary);
+  color: var(--color-text-secondary);
+  max-width: var(--panel-max-width, 1280px);
+  margin: 0 auto;
+  border: 1px solid var(--color-background-primary);
+}
+
+/*noinspection CssInvalidMediaFeature*/
+@media (--lg) {
+  .panel {
+    border-radius: 10px;
+    margin: 0 auto;
+    transform: translateY(-56px);
+  }
+}
+
+/*noinspection CssInvalidMediaFeature*/
+@media (--local-xl) {
+  .dashboard {
+    margin: 0 auto;
+  }
+}
