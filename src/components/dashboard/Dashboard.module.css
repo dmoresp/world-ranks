@@ -1,0 +1,32 @@
+.dashboard {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.dashboard section {
+  max-width: 100%;
+}
+
+/*noinspection CssInvalidMediaFeature*/
+@media (--lg) {
+  .dashboard {
+    flex-flow: row wrap;
+  }
+
+  .searchBarArea {
+    flex-basis: 100%;
+  }
+
+  .filtersArea {
+    display: flex;
+    flex-basis: 25%;
+  }
+
+  .resultsArea {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 75%;
+    overflow-x: hidden;
+  }
+}

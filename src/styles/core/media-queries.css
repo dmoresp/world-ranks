@@ -1,0 +1,8 @@
+/*noinspection CssInvalidAtRule*/
+@custom-media --sm (min-width: 22.5rem);
+/*noinspection CssInvalidAtRule*/
+@custom-media --md (min-width: 40rem);
+/*noinspection CssInvalidAtRule*/
+@custom-media --lg (min-width: 64rem);
+/*noinspection CssInvalidAtRule*/
+@custom-media --xl (min-width: 80rem);

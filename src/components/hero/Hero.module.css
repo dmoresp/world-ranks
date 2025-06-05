@@ -1,0 +1,6 @@
+.hero {
+  background: url("../../assets/img/hero-image-wr.jpg") center no-repeat black;
+  display: flex;
+  justify-content: center;
+  min-height: 300px;
+}

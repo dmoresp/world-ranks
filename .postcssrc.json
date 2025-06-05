@@ -1,0 +1,16 @@
+{
+  "plugins": {
+    "autoprefixer": {},
+    "@csstools/postcss-global-data": {
+      "files": [
+        "./src/styles/core/media-queries.css"
+      ]
+    },
+    "postcss-preset-env": {
+      "stage": 0,
+      "features": {
+        "custom-media-queries": true
+      }
+    }
+  }
+}

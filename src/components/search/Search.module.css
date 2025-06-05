@@ -1,0 +1,19 @@
+/*noinspection CssInvalidAtRule*/
+@custom-media --local-sm (min-width: 400px);
+
+.search {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.4rem 1.7rem 0;
+  margin-bottom: 2.4rem;
+  gap: 1rem;
+}
+
+/*noinspection CssInvalidMediaFeature*/
+@media(--local-sm) {
+  .search {
+    --text-input-min-width: calc(400px - 1.7rem * 2);
+  }
+}

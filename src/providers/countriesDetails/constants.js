@@ -1,0 +1,11 @@
+const INITIAL_STATE = {
+  details: {},
+  neighbours: {},
+};
+
+const ACTIONS = {
+  SET_COUNTRY_DETAILS: 'SET_COUNTRY_DETAILS',
+  SET_COUNTRY_NEIGHBOUR: 'SET_COUNTRY_NEIGHBOUR',
+};
+
+export { INITIAL_STATE, ACTIONS };

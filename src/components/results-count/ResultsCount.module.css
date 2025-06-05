@@ -1,0 +1,5 @@
+.counter {
+  display: flex;
+  flex-flow: row wrap;
+  font: var(--variant-2-semibold);
+}

@@ -1,0 +1,14 @@
+fieldset.field {
+  border: none;
+}
+
+.field {
+  margin: 0 1.7rem 2rem;
+}
+
+.field > label,
+.field > legend{
+  display: inline-block;
+  margin-bottom: .7rem;
+  font: var(--variant-4-semibold);
+}

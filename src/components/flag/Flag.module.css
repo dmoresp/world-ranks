@@ -1,0 +1,14 @@
+.flag {
+  display: flex;
+  max-width: var(--flag-max-width, 100%);
+  min-width: var(--flag-min-width, 0);
+  border-radius: var(--flag-border-radius, 0px);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.flag img {
+  object-fit: cover;
+  object-position: center;
+}

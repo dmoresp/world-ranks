@@ -1,0 +1,16 @@
+@import "../node_modules/modern-normalize/modern-normalize.css";
+
+@import "./styles/core/typography.css";
+@import "./styles/core/colors.css";
+@import "./styles/core/globals.css";
+@import "./styles/core/media.css";
+@import "./styles/core/media-queries.css";
+@import "./styles/partials/_buttons.css";
+@import "./styles/partials/_links.css";
+@import "./styles/partials/_forms.css";
+
+body {
+  margin: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+}
